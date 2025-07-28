@@ -1,0 +1,33 @@
+.containerT {
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+  justify-content: center;
+}
+
+.containerP {
+  width: fit-content;
+  justify-self: center;
+}
+
+.containerUp{
+  height: 90px;
+  width: 90vw;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr;
+  margin-top: -50px;
+  margin-bottom: 100px;
+}
+
+.divToptitle{
+  font-size: 36px;
+  text-align: center;
+  align-self: center;
+}
+
+.divTopboton{
+  
+  text-align: end;
+}
+

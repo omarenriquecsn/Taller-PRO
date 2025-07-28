@@ -1,0 +1,10 @@
+.img {
+ 
+    border: solid;
+    width: 120px;
+    height: 150px;
+    min-height: 150px;
+    border-radius: 50%;
+    object-fit: fill;
+    box-shadow: 0 5px 10px 0 ;
+}

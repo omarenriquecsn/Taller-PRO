@@ -1,0 +1,10 @@
+.itemNav {
+  overflow: hidden;
+  display: flex;
+  gap: 20px;
+  margin-left: 10px;
+}
+
+.itemNav:hover {
+  color: var(--smoky-black);
+}

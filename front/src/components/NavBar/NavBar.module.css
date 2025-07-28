@@ -1,0 +1,20 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 45px;
+  background: linear-gradient(to left, var(--miGray), var(--citrine));
+  height: 100vh;
+  top: 0;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  color: var(--isabelline);
+  gap: 40px;
+  padding-top: 40px;
+  transition: all 1s ease;
+}
+
+.list:hover {
+  width: 200px;
+  border-radius: 5px 50px 500px 5px;
+  overflow: hidden;
+}

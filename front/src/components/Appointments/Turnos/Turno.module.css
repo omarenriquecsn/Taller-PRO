@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to top, var(--citrine), var(--miGray));
+  border-radius: 15px;
+  box-shadow: 0 10px 10px 0;
+  margin: 30px;
+  width: 220px;
+  font-size: 11px;
+  height: fit-content;
+  text-align: left;
+  min-height: 130px;
+  padding: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 15px;
+}
+
+.button {
+  background-image: url("https://ideogram.ai/assets/image/lossless/response/idNz7zLJSr69plmKVYCQmg");
+  background-size: cover;
+  width: 100px;
+  margin: auto;
+  font-family: "Bangers", serif;
+  box-shadow: 0 5px 10px 0;
+  cursor: pointer;
+  border-radius: 10px;
+  text-shadow: -1px -1px 0 hsl(54, 92%, 47%);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.button:active {
+  box-shadow: 0 0 0 0;
+}
+
+.span {
+  color: yellow;
+  text-shadow: -1px -1px 0 #000;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}

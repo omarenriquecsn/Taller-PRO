@@ -1,0 +1,26 @@
+.container {
+  display: grid;
+  grid-template-rows: 100px;
+  grid-template-columns: 30% 50%;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.boxImg {
+  width: 30%;
+  text-align: right;
+  grid-column: 1;
+  height: 100%;
+  margin-left: 250px;
+}
+
+.img {
+  border-radius: 50%;
+}
+.title {
+  grid-column: 2;
+  height: 100%;
+  align-content: center;
+  margin-left: 40px;
+  font-size: 50px;
+}

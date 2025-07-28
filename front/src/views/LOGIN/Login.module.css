@@ -1,0 +1,57 @@
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40vw;
+  min-width: 40vw;
+  border: 2px solid var(--citrine);
+  padding: 50px;
+  align-self: center;
+  border-radius: 0 15px 15px 0;
+  transition: all ease;
+  height: 100%;
+}
+
+.boxImg {
+  width: 40vw;
+  align-content: center;
+  text-align: center;
+  border: 2px solid var(--miGray);
+  border-radius: 15px 0 0 15px;
+  padding: 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  background: linear-gradient(to left, var(--miGray), var(--citrine));
+  border-radius: 15px;
+  box-shadow: 0 10px 10px 0;
+  color: white;
+  text-shadow: 0 5px 10px black;
+  min-height: 70vh;
+}
+.img {
+  border-radius: 50%;
+  max-width: 50%;
+}
+
+.mensaje {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  color: yellow;
+  text-shadow: 0 0 5px red;
+}
+
+.link {
+  color: var(--citrine);
+}
+
+.link:hover {
+  color: black;
+}
+
+.h2 {
+  margin: 10px 0 10px 0;
+}
